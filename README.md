@@ -1,3 +1,14 @@
+ryuken
+======
+
+Essentially, this is the [kraken](https://github.com/kraken/kraken) graph database with virtually zero modifications.
+
+It has been renamed because the name "kraken" is already taken on npm. We have plans to extend it a little, and obviusly they'll be contributed back :)
+
+I "licensed" it under "Unlicense" - mostly because it's not even my code to begin with (see [kraken](https://github.com/kraken/kraken)) -- and I don't give a fuck what you do with the code either.. lol. it's a nicer sounding WTFPL I guess.
+
+cheers! (thanks ryan!)
+
 kraken
 ======
 

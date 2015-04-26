@@ -1,22 +1,27 @@
 {
-  "name": "kraken",
-  "productName": "kraken",
+  "name": "ryuken",
+  "productName": "ryuken",
   "version": "0.1.0",
   "description": "A hackable in-memory graph database that runs in node and the browser",
   "main": "./src/kraken.js",
+  "origin": {
+    "name": "kraken",
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "A hackable in-memory graph database that runs in node and the browser",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kraken/kraken.git"
+    }
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kraken/kraken.git"
+    "url": "https://github.com/heavyk/ryuken.git"
   },
   "bugs": {
-    "url": "https://github.com/kraken/kraken/issues"
+    "url": "https://github.com/heavyk/ryuken/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/kraken/kraken/blob/master/LICENSE"
-    }
-  ],
+  "license": "Unlicense",
   "scripts": {
     "test": "mocha --ui tdd --reporter dot 'test/**/*-test.js'"
   },
